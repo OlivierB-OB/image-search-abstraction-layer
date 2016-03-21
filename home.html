@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Olivier BERNARD 's Image Search Abstraction Layer</title>
+    </head>
+    <body>
+        <h1>Olivier BERNARD 's Image Search Abstraction Layer</h1>
+        <p>
+            User stories:
+        </p>
+        <ol>
+            <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+            <li>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+            <li>I can get a list of the most recently submitted search strings.</li>
+        </ol>
+        <p>
+            Example usage:
+        </p>
+        <ul>
+            <li><a href="/search/cat">https://image-search-abstraction-layer.herokuapp.com/search/cat</a></li>
+            <li><a href="/search/cat?offset=2">https://image-search-abstraction-layer.herokuapp.com/search/cat?offset=2</a></li>
+            <li><a href="/history">https://image-search-abstraction-layer.herokuapp.com/history</a></li>
+        </ul>
+        <p>
+            Example output:
+        </p>
+        <ul>
+            <li>[{"url":"http://3.bp.blogspot.com/-WHW5J1uTTCY/UERgSSUImII/AAAAAAAAAMk/JrIBdXHajj0/s1600/Cat+Pictures+8.jpg","title":"Free Cat Wallpaper, Cute Cat Pictures, Animal Desktop Backgrounds","thumb":"http://ts2.mm.bing.net/th?id=OIP.M7cf9f637bad11855cde346ba3f8cddb1o0&pid=15.1","context":"http://onlinewallpapersstore.blogspot.com/2012/09/cat-pictures-cat-photos-cat-wallpaper.html"}, ... ]</li>
+            <li>[{"date":"2016-03-21T11:06:18.684Z","query":"cat"},{"date":"2016-03-21T11:06:27.855Z","query":"cat"}]</li>
+        </ul>
+    </body>
+</html>
