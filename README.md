@@ -9,8 +9,8 @@ User stories:
 
 Example usage:
 
-*   [https://image-search-abstraction-layer.herokuapp.com/search/cat](https://image-search-abstraction-layer.herokuapp.com/search/cat)
-*   [https://image-search-abstraction-layer.herokuapp.com/search/cat?offset=2](https://image-search-abstraction-layer.herokuapp.com/search/cat?offset=2)
+*   [https://image-search-abstraction-layer.herokuapp.com/query/cat](https://image-search-abstraction-layer.herokuapp.com/query/cat)
+*   [https://image-search-abstraction-layer.herokuapp.com/query/cat?offset=2](https://image-search-abstraction-layer.herokuapp.com/query/cat?offset=2)
 *   [https://image-search-abstraction-layer.herokuapp.com/history](https://image-search-abstraction-layer.herokuapp.com/history)
 
 Example output:
